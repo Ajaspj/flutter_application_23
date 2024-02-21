@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_23/view/screen/widgets/custom_status.dart';
 
 class updates extends StatefulWidget {
   const updates({super.key});
@@ -10,8 +11,11 @@ class updates extends StatefulWidget {
 class _updatesState extends State<updates> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.red,
-    );
+    return ListView.separated(
+        itemBuilder: (context, index) => Statuscard(index: index),
+        separatorBuilder: (context, index) => SizedBox(
+              height: 10,
+            ),
+        itemCount: 1);
   }
 }

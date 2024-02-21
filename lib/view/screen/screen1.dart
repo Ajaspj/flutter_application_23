@@ -19,7 +19,8 @@ class _HomeScreenState extends State<HomeScreen> {
         appBar: AppBar(
           backgroundColor: Color.fromARGB(255, 7, 94, 84),
           title: Text(
-            "whatsapp",
+            "WhatsApp",
+            style: TextStyle(color: Colors.white),
             selectionColor: Colors.white,
           ),
           actions: [
