@@ -12,6 +12,7 @@ class _chatsState extends State<chats> {
   @override
   Widget build(BuildContext context) {
     return ListView.separated(
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
         itemBuilder: (context, index) => SizedBox(),
         separatorBuilder: (context, index) => CustomCard(),
         itemCount: 10);

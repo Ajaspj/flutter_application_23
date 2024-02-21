@@ -6,7 +6,7 @@ class CustomCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(20),
+      padding: EdgeInsets.symmetric(vertical: 5),
       child: Row(
         children: [
           CircleAvatar(
@@ -25,8 +25,17 @@ class CustomCard extends StatelessWidget {
               Text("messages")
             ],
           ),
+          Spacer(),
           Column(
-            children: [],
+            children: [
+              Text("time"),
+              SizedBox(
+                height: 10,
+              ),
+              CircleAvatar(
+                radius: 10,
+              )
+            ],
           )
         ],
       ),
