@@ -9,7 +9,7 @@ class DummyDb {
           "https://images.pexels.com/photos/16679852/pexels-photo-16679852/free-photo-of-woman-hand-holding-bouquet-with-ribbon.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-      "user_name": "Anu",
+      "user_name": "Purushu",
       "chat": "hii",
       "time": "01:00 AM",
       "count": "3",
@@ -25,7 +25,7 @@ class DummyDb {
           "https://images.pexels.com/photos/16679852/pexels-photo-16679852/free-photo-of-woman-hand-holding-bouquet-with-ribbon.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-      "user_name": "Mariya",
+      "user_name": "Eldho",
       "chat": "hii",
       "time": "02:00 AM",
       "count": "1",

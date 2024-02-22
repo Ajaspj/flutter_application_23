@@ -20,7 +20,10 @@ class CustomCard extends StatelessWidget {
           ),
           Column(
             children: [
-              Text(DummyDb.chatlist[index]["user_name"]),
+              Text(
+                DummyDb.chatlist[index]["user_name"],
+                textAlign: TextAlign.left,
+              ),
               SizedBox(
                 width: 10,
               ),

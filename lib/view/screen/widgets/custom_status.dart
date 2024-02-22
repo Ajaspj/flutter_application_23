@@ -8,17 +8,36 @@ class Statuscard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsetsDirectional.symmetric(horizontal: 0, vertical: 5),
-      child: Row(
+      child: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            child: Text(
-              "status",
-              style: TextStyle(fontSize: 20),
-            ),
+          Row(
+            children: [
+              Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+                child: Text(
+                  "status",
+                  style: TextStyle(fontSize: 20),
+                ),
+              ),
+              Spacer(),
+              Icon(Icons.more_vert),
+            ],
           ),
-          Spacer(),
-          Icon(Icons.more_vert),
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Column(
+                  children: [
+                    CircleAvatar(
+                      radius: 25,
+                    )
+                  ],
+                ),
+              ),
+            ],
+          )
         ],
       ),
     );
